@@ -13,10 +13,13 @@
     </Row>
   </div>
 </template>
-<style>
+<style scoped>
 div {
   background:#fff
 }
+</style>
+<style>
+
 .code-row-bg{
   height: 76px;
 }
