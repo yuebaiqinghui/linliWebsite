@@ -1,15 +1,12 @@
 <template>
 <div class="layout">
     <Layout>
-        <Navbar width="100%"/>
-        <!-- <Content>Content</Content>
-        <Footer>Footer</Footer> -->
+        <Navbar />
+        <Content>产品中心</Content>
+        <Footer>Footer</Footer>
     </Layout>
 </div>
 </template>
-<style>
-
-</style>
 <script>
 import Navbar from '../components/navbar'
 export default {

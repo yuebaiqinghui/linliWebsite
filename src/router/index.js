@@ -9,6 +9,21 @@ export default new Router({
       path: '/',
       name: '首页',
       component: () => import('@/views/home')
+    },
+    {
+      path: '/us',
+      name: '关于我们',
+      component: () => import('@/views/us')
+    },
+    {
+      path: '/product',
+      name: '产品中心',
+      component: () => import('@/views/product')
+    },
+    {
+      path: '/contact',
+      name: '联系我们',
+      component: () => import('@/views/contact')
     }
   ]
 })
