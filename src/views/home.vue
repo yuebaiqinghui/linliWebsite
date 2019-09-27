@@ -104,26 +104,39 @@
                 <div class="form">
                     <Form :model="form">
                         <FormItem>
-                            <Input v-model="form.title" placeholder="标题" />
+                            <Input v-model="form.title" class="input" placeholder="标题" />
                         </FormItem>
                         <FormItem>
-                            <Input v-model="form.content" type="textarea" :rows="4" placeholder="内容" />
+                            <Input v-model="form.content" type="textarea" :rows="4" class="input" placeholder="内容" />
                         </FormItem>
                         <FormItem>
-                            <Input v-model="form.mail" placeholder="电子邮件" />
+                            <Input v-model="form.mail" class="input" placeholder="电子邮件" />
                         </FormItem>
                         <FormItem>
-                            <Input v-model="form.captcha" placeholder="验证码" />
+                            <Input v-model="form.captcha" class="input" placeholder="验证码" />
+                            <img src="../assets/GenerateLeavewordCaptcha.jpg" alt="" class="captcha">
                         </FormItem>
                     </Form>
                     <Button type="error" class="submit">提交</Button>
                 </div>
             </div>
         </div>
+        <!-- 底部 -->
+        <Footer />
     </Layout>
 </div>
 </template>
 <style>
+.ivu-input{
+    width: 534px;
+    height: 34px;
+}
+textarea.ivu-input{
+    height: 136px;
+    width: 534px
+}
+</style>
+<style scoped>
 .ivu-layout{
     background: #fff;
 }
@@ -291,7 +304,8 @@
 
 .contact-card{
     display: flex;
-    margin-top: 12px
+    margin-top: 12px;
+    margin-bottom: 79px
 }
 .contact-card .information{
     width: 385px;
@@ -337,13 +351,7 @@
     height: 422px;
     background-image: url('../assets/Shape_2.png')
 }
-.ivu-input{
-    width: 534px;
-    height: 34px;
-}
-textarea.ivu-input{
-    height: 136px;
-}
+
 .ivu-form-item{
     background: transparent;
     margin-left: 44px;
@@ -351,6 +359,11 @@ textarea.ivu-input{
 }
 .ivu-form-item:nth-child(1){
     margin-top: 56px
+}
+.captcha{
+    position: absolute;
+    top: 6px;
+    right: 50px;
 }
 .submit{
     margin-left: 488px;
@@ -362,6 +375,7 @@ textarea.ivu-input{
 </style>
 <script>
 import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 export default {
   data () {
     return {
@@ -374,7 +388,8 @@ export default {
     }
   },
   components: {
-    Navbar
+    Navbar,
+    Footer
   }
 }
 </script>

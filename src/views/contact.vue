@@ -2,16 +2,20 @@
 <div class="layout">
     <Layout>
         <Navbar />
-        <Content>联系我们</Content>
-        <Footer>Footer</Footer>
+        <Slider />
+        <Footer />
     </Layout>
 </div>
 </template>
 <script>
 import Navbar from '../components/navbar'
+import Footer from '../components/footer'
+import Slider from '../components/slider'
 export default {
   components: {
-    Navbar
+    Navbar,
+    Footer,
+    Slider
   }
 }
 </script>
