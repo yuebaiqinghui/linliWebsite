@@ -23,6 +23,11 @@
   </Carousel>
 </template>
 <style>
+.ivu-carousel-arrow{
+    width: 36px;
+    height: 58px;
+    border-radius: 0%;
+}
 .demo-carousel{
     position: relative;
 }

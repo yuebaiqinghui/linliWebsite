@@ -54,18 +54,18 @@
             </div>
         </div>
         <!-- 关于我们 -->
-        <div class="about">
+        <div class="about animated fadeInLeft">
             <img src="../assets/photo.png" alt="">
             <div class="about-content">
                 <h2>关于我们</h2>
                 <p>邻里共享e社区”其实是一种创新型的社会治理项目。它借助“互联网+物业”的模式，打造可持续的共建共治共享社会治理新格局。简单地说，就是政府、居民、企业、物管多方利用“邻里共享”这一平台，参与社区治理，共同促进社区和谐氛围的形成。</p>
                 <p>人民街党工委书记李剑怆说，为解决人员密集、房屋老旧、治安形势严峻等难题，街道也曾经引入传统物管服务，但由于无法实现物管公司自身“造血”功能，效果不理想。</p>
                 <p>为破解濠畔小区治理难题，人民街党工委、办事处深入调查研究，多方探索，决定引入社会资源，建立“邻里共享e社区”。</p>
-                <Button type="error" ghost>查看更多</Button>
+                <Button type="error" ghost to="/us">查看更多</Button>
             </div>
         </div>
         <!-- 产品中心 -->
-        <div class="product">
+        <div class="product animated fadeInRight">
             <h2>产品中心</h2>
             <p>为客户创造价值的过程中，不断提升企业自身的价值</p>
             <img src="../assets/separated.png" alt="">
@@ -87,10 +87,10 @@
                     <p>APP社区平台</p>
                 </div>
             </div>
-            <Button type="error" ghost>查看更多</Button>
+            <Button type="error" ghost to="/product">查看更多</Button>
         </div>
         <!-- 联系我们 -->
-        <div class="contact">
+        <div class="contact animated fadeInUp">
             <h2>联系我们</h2>
             <p>定制新科技，创造新社区</p>
             <img src="../assets/separated.png" alt="">
@@ -134,6 +134,11 @@
 textarea.ivu-input{
     height: 136px;
     width: 534px
+}
+.ivu-carousel-arrow{
+    width: 36px;
+    height: 58px;
+    border-radius: 0%;
 }
 </style>
 <style scoped>

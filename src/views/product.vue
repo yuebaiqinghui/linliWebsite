@@ -4,9 +4,9 @@
       <Navbar />
       <Slider />
       <div class="about">
-        <div class="about-content">
-          <h2>关于我们</h2>
-          <p>广州佳邻网络科技有限公司成立于2017年12月，围绕科技引领新生活的理念，以邻里共享APP为核心产品，以线上+线下的社区模式为依托，整合社会力量、组织公共资源，为广大居民提供一个集“智能门禁、社区物业、居家购物、社区聊天“等于一体的便民的社区生活服务平台，努力为居民提供一个安全、舒适、便利的现代化、智慧化生活环境，构建共建共治共享的社区治理格局，创建文明广州。</p>
+        <div class="about-content animated fadeIn">
+          <h2>产品中心</h2>
+          <p>邻里共享APP是以"互联网+社区"为理念，智能门禁 + 监控系统 + 物业服务 + 互动共享 + APP社区平台；通过信息化技术整合社会力量、组织公共资源，为广大社区居⺠提供在线开门、社区物业、居家购物、社区聊天等便⺠的社区生活服务平台，致力于打造高效、舒适、安全的社区生活体验。</p>
           <swiper :options="swiperOption">
             <swiper-slide>
               <img class="swiper-img" src="../assets/sl1.jpg" alt />
@@ -42,6 +42,9 @@
   </div>
 </template>
 <style scoped>
+.ivu-layout{
+    background: #fff;
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -85,7 +88,7 @@
   color:rgba(102,102,102,1);
   line-height:24px;
   margin-top: 9px;
-  transform: translate( 6%, 0);
+  transform: translate( 7%, 0);
 }
 .swiper-container{
   width: 999px;
@@ -95,11 +98,13 @@
   position: relative;
   bottom: 218px;
   left: -42px;
+  background-size: 20px 20px;
 }
 .swiper-button-next{
   position: relative;
   bottom: 245px;
   left: 1008px;
+  background-size: 20px 20px;
 }
 </style>
 <script>
