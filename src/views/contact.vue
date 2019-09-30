@@ -16,13 +16,13 @@
                 <div class="info-tab">电话:</div>
                 <div class="info-content">17329908995</div>
               </div>
-              <div class="info">
+              <!-- <div class="info">
                 <div class="info-tab">传真:</div>
                 <div class="info-content">010xxxx8888</div>
-              </div>
+              </div> -->
               <div class="info">
                 <div class="info-tab">邮箱:</div>
-                <div class="info-content">GZ@jialinkeji.com</div>
+                <div class="info-content">caizhiqiang@jialinkeji.com</div>
               </div>
             </div>
             <div class="form">

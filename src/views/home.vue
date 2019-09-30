@@ -99,7 +99,7 @@
                     <div class="info"><div class="info-tab">地址:</div><div class="info-content">广东省广州市越秀区人民街大新路</div></div>
                     <div class="info">102号</div>
                     <div class="info"><div class="info-tab">电话:</div><div class="info-content">17329908995</div></div>
-                    <div class="info"><div class="info-tab">邮箱:</div><div class="info-content">GZ@jialinkeji.com</div></div>
+                    <div class="info"><div class="info-tab">邮箱:</div><div class="info-content">caizhiqiang@jialinkeji.com</div></div>
                 </div>
                 <div class="form">
                     <Form :model="form">
