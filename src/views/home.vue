@@ -41,10 +41,10 @@
                 <p class="tab-content">e巡查是维护社区安全的主要功能，居民可以申请成为巡查员，做任务排除社区安全隐患。</p>
             </div>
             <div class="tab">
-                <img src="../assets/clean.png" alt="">
-                <p class="tab-title">e家政</p>
+                <img src="../assets/lock.png" alt="">
+                <p class="tab-title">手机开门</p>
                 <div class="tab-line"></div>
-                <p class="tab-content">e家政是邻里共享即将推出的功能，我们将与家政公司合作共同打造实惠质优的家政服务。</p>
+                <p class="tab-content">手机开门是邻里共享APP的核心功能，居民开通门禁卡后即可登录注册使用手机开门功能。</p>
             </div>
             <div class="tab">
                 <img src="../assets/Unmanned.png" alt="">

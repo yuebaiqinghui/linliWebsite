@@ -1,7 +1,7 @@
 <template>
   <div>
     <Row type="flex" justify="center" class="code-row-bg">
-        <Col span="4"><img src="../assets/logo.png" alt="" class="logo"></Col>
+        <Col span="4"><router-link to="/"><img src="../assets/logo.png" alt="" class="logo"></router-link></Col>
         <Col span="12">
           <Menu mode="horizontal" :active-name="activeName">
             <MenuItem name="/" to="/">首页</MenuItem>
@@ -22,7 +22,7 @@ div {
 
 .code-row-bg{
   height: 76px;
-  margin-left: 230px;
+  /* margin-left: 230px; */
 }
 .logo{
   height: 31px;
