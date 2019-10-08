@@ -1,7 +1,7 @@
 <template>
 <div class="layout">
     <Layout>
-        <Navbar />
+        <Navbar class="nav"/>
         <Slider />
         <div class="about">
           <div class="about-content animated fadeIn">

@@ -2,16 +2,16 @@
 <div class="layout">
     <Layout>
         <!-- 顶部导航栏 -->
-        <Navbar width="100%"/>
+        <Navbar width="100%" class="nav"/>
         <!-- 轮播图 -->
-        <Carousel loop dots="none">
+        <Carousel loop dots="none" arrow="always" autoplay :autoplay-speed="10000">
             <CarouselItem>
                 <div class="demo-carousel">
                     <img src="../assets/photo_1.jpg" width="100%" alt="">
                     <div class="carousel-card">
-                        <p>Intelligence community</p>
+                        <p>INTELLIGENCE COMMUNITY</p>
                         <p>专注于智慧社区建设</p>
-                        <p>邻里共享APP是以"互联网+社区"为理念，智能门禁 + 监控系统 + 物业服务 + 互动共享 + APP社区平台；通过信息化技术整合社会力量、组织公共资源，为广大社区居⺠提供在线开⻔、社区物业、居家购物、社区聊天等便⺠的社区生活服务平台</p>
+                        <p>邻里共享APP是以“互联网+社区”为理念，智能门禁 + 监控系统 + 物业服务 + 互动共享 + APP社区平台；通过信息化技术整合社会力量、组织公共资源，为广大社区居⺠提供在线开⻔、社区物业、居家购物、社区聊天等便⺠的社区生活服务平台</p>
                     </div>
                 </div>
             </CarouselItem>
@@ -19,7 +19,7 @@
                 <div class="demo-carousel">
                     <img src="../assets/photo_2.jpg" width="100%" alt="">
                     <div class="carousel-card">
-                        <p>Information technology</p>
+                        <p>INFORMATION TECHNOLOGY</p>
                         <p>信息化科技为您服务</p>
                         <p>经验丰富的专家团队,依托一套成熟的服务体和工作流程为客户提供高质量的软件系统顾问咨询，系统实施和售后维护等一系列服务 ，全面满足客户的需求。诚信经营,用心服务,在为客户创造价值的的过程中,不断提升企业自身的价值。</p>
                     </div>
@@ -71,19 +71,19 @@
             <img src="../assets/separated.png" alt="">
             <div class="show">
                 <div>
-                    <img src="../assets/door.png" alt="">
+                    <img src="../assets/sl1.jpg" alt="">
                     <p>智能门禁</p>
                 </div>
                 <div>
-                    <img src="../assets/monitoring.png" alt="">
+                    <img src="../assets/sl2.jpg" alt="">
                     <p>监控系统</p>
                 </div>
                 <div>
-                    <img src="../assets/property.png" alt="">
+                    <img src="../assets/sl3.jpg" alt="">
                     <p>物业服务</p>
                 </div>
                 <div>
-                    <img src="../assets/app_platform.png" alt="">
+                    <img src="../assets/sl4.jpg" alt="">
                     <p>APP社区平台</p>
                 </div>
             </div>
@@ -127,6 +127,21 @@
 </div>
 </template>
 <style>
+.nav{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%
+}
+.ivu-carousel {
+    margin-top: 76px;
+}
+.ivu-icon-ios-arrow-forward:before {
+    font-size: 240%;
+}
+.ivu-icon-ios-arrow-back:before {
+    font-size: 240%;
+}
 .ivu-input{
     width: 534px;
     height: 34px;
@@ -139,6 +154,7 @@ textarea.ivu-input{
     width: 36px;
     height: 58px;
     border-radius: 0%;
+    background-color: rgba(31,45,61,0.6);
 }
 </style>
 <style scoped>

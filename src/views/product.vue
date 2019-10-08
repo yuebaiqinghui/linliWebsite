@@ -1,12 +1,12 @@
 <template>
   <div class="layout">
     <Layout>
-      <Navbar />
+      <Navbar class="nav"/>
       <Slider />
       <div class="about">
         <div class="about-content animated fadeIn">
           <h2>产品中心</h2>
-          <p>邻里共享APP是以"互联网+社区"为理念，智能门禁 + 监控系统 + 物业服务 + 互动共享 + APP社区平台；通过信息化技术整合社会力量、组织公共资源，为广大社区居⺠提供在线开门、社区物业、居家购物、社区聊天等便⺠的社区生活服务平台，致力于打造高效、舒适、安全的社区生活体验。</p>
+          <p>邻里共享APP是以“互联网+社区”为理念，智能门禁 + 监控系统 + 物业服务 + 互动共享 + APP社区平台；通过信息化技术整合社会力量、组织公共资源，为广大社区居⺠提供在线开门、社区物业、居家购物、社区聊天等便⺠的社区生活服务平台，致力于打造高效、舒适、安全的社区生活体验。</p>
           <swiper :options="swiperOption">
             <swiper-slide>
               <img class="swiper-img" src="../assets/sl1.jpg" alt />

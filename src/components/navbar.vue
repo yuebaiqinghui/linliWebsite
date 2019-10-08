@@ -1,15 +1,17 @@
 <template>
   <div>
     <Row type="flex" justify="center" class="code-row-bg">
-        <Col span="4"><router-link to="/"><img src="../assets/logo.png" alt="" class="logo"></router-link></Col>
-        <Col span="12">
+        <!-- <Col span="4"> -->
+        <router-link to="/"><img src="../assets/logo.png" alt="" class="logo"></router-link>
+        <!-- </Col> -->
+        <!-- <Col span="12"> -->
           <Menu mode="horizontal" :active-name="activeName">
             <MenuItem name="/" to="/">首页</MenuItem>
             <MenuItem name="/us" to="/us">关于我们</MenuItem>
             <MenuItem name="/product" to="/product">产品中心</MenuItem>
             <MenuItem name="/contact" to="/contact">联系我们</MenuItem>
           </Menu>
-        </Col>
+        <!-- </Col> -->
     </Row>
   </div>
 </template>
@@ -28,6 +30,7 @@ div {
   height: 31px;
   width: 167px;
   margin-top: 32px;
+  margin-right: 100px;
 }
 .ivu-menu{
   margin-top: 16px;
