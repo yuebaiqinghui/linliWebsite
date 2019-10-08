@@ -1,5 +1,5 @@
 <template>
-  <Carousel loop dots="none" arrow="always" autoplay :autoplay-speed="10000">
+  <Carousel loop dots="none" arrow="always">
     <CarouselItem>
       <div class="demo-carousel">
         <img src="../assets/photo_01.jpg" width="100%" alt />

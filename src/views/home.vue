@@ -325,8 +325,8 @@ textarea.ivu-input{
 
 .contact-card{
     display: flex;
-    margin-top: 12px;
-    margin-bottom: 79px
+    margin-top: 40px;
+    margin-bottom: 80px
 }
 .contact-card .information{
     width: 385px;

@@ -2,7 +2,7 @@
   <div>
     <Row type="flex" justify="center" class="code-row-bg">
         <!-- <Col span="4"> -->
-        <router-link to="/"><img src="../assets/logo.png" alt="" class="logo"></router-link>
+        <router-link to="/"><img src="../assets/logo2.png" alt="" class="logo"></router-link>
         <!-- </Col> -->
         <!-- <Col span="12"> -->
           <Menu mode="horizontal" :active-name="activeName">
