@@ -6,7 +6,7 @@
     </div>
     <div class="record">
       <img src="../assets/icon_shield.png" alt="">
-      <span>备案：粤ICP备15205632号</span>
+      <span>备案：粤ICP备18043385号-1</span>
     </div>
     <div class="telephone">
       <img src="../assets/icon_phone.png" alt="">

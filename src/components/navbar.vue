@@ -22,6 +22,7 @@ div {
 
 .code-row-bg{
   height: 76px;
+  margin-left: 230px;
 }
 .logo{
   height: 31px;
