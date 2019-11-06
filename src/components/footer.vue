@@ -6,7 +6,7 @@
     </div>
     <div class="record">
       <img src="../assets/icon_shield.png" alt="">
-      <span>备案：粤ICP备18043385号-1</span>
+      <span><a href="http://beian.miit.gov.cn" target="_blank" style="color: #fff">备案：粤ICP备18043385号-1</a></span>
     </div>
     <div class="telephone">
       <img src="../assets/icon_phone.png" alt="">
